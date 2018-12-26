@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require './lib/singularitygs'
+require 'singularitygs'
 
 Gem::Specification.new do |s|
   # General Project Information
