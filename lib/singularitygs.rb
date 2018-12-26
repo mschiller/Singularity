@@ -1,4 +1,4 @@
-require "./lib/singularitygs/version"
+require "singularitygs/version"
 
 module SingularityGS
   module Sass

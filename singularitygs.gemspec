@@ -1,5 +1,7 @@
-# -*- encoding: utf-8 -*-
-require './lib/singularitygs'
+# coding: utf-8
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'singularitygs/version'
 
 Gem::Specification.new do |s|
   # General Project Information
