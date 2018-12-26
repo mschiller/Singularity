@@ -51,7 +51,7 @@ module SingularityGS
       private
 
       def register_rails_engine
-        require './lib/singularitygs/engine'
+        require 'singularitygs/engine'
       end
 
       def register_sprockets
