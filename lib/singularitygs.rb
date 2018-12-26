@@ -1,4 +1,4 @@
-require "singularitygs/version"
+require "./lib/singularitygs/version"
 
 module SingularityGS
   module Sass
@@ -51,7 +51,7 @@ module SingularityGS
       private
 
       def register_rails_engine
-        require 'singularitygs/engine'
+        require './lib/singularitygs/engine'
       end
 
       def register_sprockets
